@@ -20,7 +20,7 @@ $ docker-compose up --build
 
 # **Шаг 3**
 
-Далее в файле app.py находится функция post для #POST request.
+В файле app.py находится функция post для #POST request.
 Есть два способа отправить запрос:
 1. Используя curl
  
@@ -31,7 +31,7 @@ curl --header "Content-Type: application/json" \
   http://localhost:5000/post
   
 Здесь data - данные, которые мы хотим, чтобы наш сервис обработал.
-на выходе мы получим эти данные в json + uuid (случайное число).
+На выходе мы получим эти данные в json + uuid (случайное число).
 
 2. С помощью Postman
 
